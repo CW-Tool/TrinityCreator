@@ -27,7 +27,7 @@ namespace TrinityCreator.Emulator
             switch (Properties.Settings.Default.emulator)
             {
                 case 0:
-                    _selectedEmulator = new Trinity335a();
+                    _selectedEmulator = new Trinity335aTDB64();
                     break;
                 case 1:
                     _selectedEmulator = new cmangosZero();
@@ -35,6 +35,13 @@ namespace TrinityCreator.Emulator
                 case 2:
                     _selectedEmulator = new Azeroth335a();
                     break;
+                case 3:
+                    _selectedEmulator = new cMangos335a();
+                    break;
+                case 4:
+                    _selectedEmulator = new Trinity335a201901();
+                    break;
+                    
             }
         }
 

@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TrinityCreator</RootNamespace>
     <AssemblyName>TrinityCreator</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -30,6 +30,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>tclogo.ico</ApplicationIcon>
@@ -128,7 +129,9 @@
     <Compile Include="Emulator\EmulatorHandler.cs" />
     <Compile Include="Emulator\IEmulator.cs" />
     <Compile Include="Emulator\Azeroth335a.cs" />
-    <Compile Include="Emulator\Trinity335a.cs" />
+    <Compile Include="Emulator\cMangos335a.cs" />
+    <Compile Include="Emulator\Trinity335a201901.cs" />
+    <Compile Include="Emulator\Trinity335aTDB64.cs" />
     <Compile Include="ExportQuery.cs" />
     <Compile Include="LootPage.xaml.cs">
       <DependentUpon>LootPage.xaml</DependentUpon>
@@ -379,6 +382,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Emulator\Reference\cmangos_zero.sql.txt" />
+    <Resource Include="Emulator\Reference\trinity335a201901.sql.txt" />
     <Content Include="Emulator\Reference\trinity335a.sql.txt" />
     <None Include="Resources\cb_data.xml">
       <SubType>Designer</SubType>
