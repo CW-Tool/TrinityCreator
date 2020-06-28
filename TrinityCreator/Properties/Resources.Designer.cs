@@ -19,7 +19,7 @@ namespace TrinityCreator.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,6 +57,16 @@ namespace TrinityCreator.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap add_icon {
+            get {
+                object obj = ResourceManager.GetObject("add_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -113,7 +123,7 @@ namespace TrinityCreator.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Creator			Nadromar
+        ///   Looks up a localized string similar to Creator			NotCoffee418
         ///
         ///External libraries by:
         ///DBC Viewer		tomrus88
@@ -259,6 +269,16 @@ namespace TrinityCreator.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap remove_icon {
+            get {
+                object obj = ResourceManager.GetObject("remove_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap silver {
             get {
                 object obj = ResourceManager.GetObject("silver", resourceCulture);
@@ -283,6 +303,19 @@ namespace TrinityCreator.Properties {
             get {
                 object obj = ResourceManager.GetObject("tclogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+        ///{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+        ///\pard\sa200\sl276\slmult1\b\f0\fs28\lang9 MUST READ WHEN CREATING WEAPONS!\fs22\par
+        ///\fs24 Problem:\b0\fs22\par
+        ///When creating weapons for WoW 3.3.5a or higher with a new ID will result in the weapon not working. You will not be able to use class skills and other weird issues that makes the item not act as a weapon. You will pretty much only be able to use autoattac [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string weapon_notice {
+            get {
+                return ResourceManager.GetString("weapon_notice", resourceCulture);
             }
         }
         
